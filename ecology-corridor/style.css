@@ -1,0 +1,22 @@
+/* Content Style */
+.background_content {
+    background-image: url(../assets/images/common/bacground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_content {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section_content {
+        padding-top: 1.5rem;
+        padding-bottom: 0px;
+    }
+
+    .section_content .video_content {
+        margin-bottom: 3rem;
+    }
+}

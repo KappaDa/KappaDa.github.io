@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摸魚教授曾晴賢</title>
+    <link rel="icon" href="./assets/images/logo/THU_Library.png">
+    <!-- Reset Style -->
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    
+    <!-- Include Style CDN
+        ** Swiper css
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- Owner Style -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+<body>
+    <header id="header">
+        <div class="background_wrap"></div>
+        <div class="logo_content">
+            <img src="./assets/images/logo/logo.png" alt="摸魚教授曾晴賢" class="image">
+        </div>
+        <menu class="menu_content">
+            <a href="./concept" class="list_item">策展理念</a>
+            <a href="./ecology-corridor" class="list_item">生態廊道</a>
+            <a href="./ecology-project" class="list_item">生態工程</a>
+            <div class="list_item submenu">
+                <span class="text">守護家園</span>
+                <span class="icon">
+                    <img src="./assets/images/common/angle-small-down.svg" alt="Angle down" class="image">
+                </span>
+                <div class="sublist_content">
+                    <a href="/location" class="sublist_item">團隊研究地點</a>
+                    <a href="#" class="sublist_item">守護新竹頭前溪</a>
+                    <a href="/guard-yilan" class="sublist_item">守護宜蘭礁溪</a>
+                    <a href="/guard-new-store" class="sublist_item">守護新店溪</a>
+                    <a href="/protect" class="sublist_item">護魚-河川內洄游性的魚類</a>
+                    <a href="/course" class="sublist_item">從河海洄游生物研究到護鰻</a>
+                    <a href="/guard-qinghai" class="sublist_item">守護青海湖</a>
+                </div>
+            </div>
+        </menu>
+        <div class="icon menu_burger">
+            <img src="./assets/images/common/menu-burger.svg" alt="Menu burger" class="image">
+        </div>
+    </header>
+    <section id="section">
+        <div class="poster_content">
+            <img src="./assets/images/index/image_2048.png" alt="臺灣河川洄游生物的守護者" class="image">
+        </div>
+        <div class="section_content">
+            <h2 class="title">展覽簡介</h2>
+            <p class="content">台灣地勢山高水急，但作為內陸主要水體的溪流提供我們飲水的來源、各類物種的棲息地，溪流生態的重要性不言而喻，卻也因為極端的氣候以及持續的經濟開發觸發溪流生態危機。<br>清華大學曾晴賢教授是全世界第一個完成魚類粒線體基因組定序的學者，據此辨認魚類的親緣關係，幫助台灣魚類追本溯源。他亦利用跨領域所學，在台灣各地促進溪流生態與工程對話，打造頗具成效的魚梯(魚道)、建造陸蟹生態廊道，種種重要貢獻榮獲《國家地理雜誌》青睞，獲頒「華人探險家獎」。也因為得到清大傑出校友李義發董事長的贊助，和清大黃一農院士、傅麗玉教授等人，在台東太麻里多良國小舊址，利用漂流木為材料，創立「向陽薪傳技藝樂校」，培訓在地原住民木工技藝，因而也獲得馬英九總統頒發「莫拉克風災重建紀念獎章」。本次展覽，希望清大師生有機會進一步認識與我們息息相關的台灣溪流生態，其所面臨的危機以及曾教授在這塊領域上持續耕耘的努力與守護精神。</p>
+        </div>
+        <div class="swiper swiper_content">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/images/index/swiper_01.jpg" alt="展場照片" class="image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/index/swiper_02.JPG" alt="展場照片" class="image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/index/swiper_03.JPG" alt="展場照片" class="image">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="_container">
+            <div class="item">
+                <span class="label">主辦單位：</span>
+                <a href="https://www.lib.nthu.edu.tw/" target="_blank" class="image_link">
+                    <img src="./assets/images/logo/THU.png" alt="國立清華大學圖書館" class="image">
+                </a>
+            </div>
+            <div class="item">
+                <span class="label">合作單位：</span>
+                <a href="http://sb.life.nthu.edu.tw/main.php" target="_blank">國立清華大學生物資訊與結構生物研究所</a>
+            </div>
+            <div class="item copyright">Copyright ©2022 All rights reserved</div>
+        </div>
+    </footer>
+
+    <!-- Include JS CDN
+        ** Swiper js
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="application/javascript">
+        const confige ={
+            loop: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            }
+        }
+
+        const swiper = new Swiper('.swiper', confige);
+    </script>
+
+    <!-- Owner javascript -->
+    <script src="./assets/javascript/app.js"></script>
+</body>
+</html>

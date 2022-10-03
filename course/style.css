@@ -1,0 +1,106 @@
+.background_content {
+    background-image: url(../assets/images/common/background_2048.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_content .content {
+    line-height: 2.5rem;
+    letter-spacing: 1.6px;
+}
+
+.section_content .image_content .subtitle {
+    text-align: left;
+}
+
+.section_content .video_content .subtitle {
+    top: 100%;
+    left: 0px;
+    padding-top: 1rem;
+}
+
+.section_content .content {
+    margin-top: 0px;
+}
+
+.section_content ._bold {
+    font-family: 'NotoSans-Bold';
+    line-height: 2.5rem;
+}
+
+.section_content .flex_content,
+.section_content .images_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section_content .flex_content .text_content,
+.section_content .flex_content .image_content,
+.section_content .flex_content .images_content,
+.section_content .images_container .image_content {
+    flex: 0 0 48%;
+}
+
+.section_content .flex_content .text_content {
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.section_content .flex_content .text_content li {
+    font-size: 24px;
+    line-height: 2.5rem;
+    letter-spacing: 1.6px;
+    margin-bottom: 1rem;
+}
+
+.section_content .flex_content .images_content .image_content {
+    margin-bottom: 1rem;
+}
+
+.section_content .flex_content .text_content .content {
+    font-size: 20px;
+}
+
+.section_content .flex_content .text_content ul li {
+    font-size: 20px;
+    line-height: 2rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .background_content {
+        background-image: url(../assets/images/common/background_1000.png);
+    }
+
+    .section_content ._bold {
+        line-height: 2rem;
+    }
+
+    .section_content .video_content {
+        padding-bottom: 75%;
+    }
+
+    .section_content .video_content .subtitle {
+        position: relative;
+        padding-top: 0px;
+    }
+
+    .section_content .images_container {
+        margin-bottom: 2rem;
+    }
+
+    .section_content .flex_content .text_content,
+    .section_content .flex_content .image_content,
+    .section_content .flex_content .images_content,
+    .section_content .images_container .image_content {
+        flex: 0 0 100%;
+    }
+
+    .section_content .flex_content .text_content li {
+        font-size: 20px;
+        line-height: 2rem;
+        margin-bottom: 0.5rem;
+    }
+}
