@@ -16,11 +16,6 @@
     margin-bottom: 2rem;
 }
 
-.section_content .images_container .image_content .subtitle {
-    text-align: left;
-    padding: 0px 2rem;
-}
-
 @media screen and (max-width: 768px) {
     .background_content {
         background-image: url(../assets/images/common/background_1000.png);

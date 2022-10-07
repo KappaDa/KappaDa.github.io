@@ -4,11 +4,6 @@
     background-size: cover;
 }
 
-.section_content .content {
-    line-height: 2.5rem;
-    letter-spacing: 1.6px;
-}
-
 .section_content .image_content .subtitle {
     text-align: left;
 }
@@ -17,10 +12,6 @@
     top: 100%;
     left: 0px;
     padding-top: 1rem;
-}
-
-.section_content .content {
-    margin-top: 0px;
 }
 
 .section_content ._bold {
@@ -61,6 +52,7 @@
 
 .section_content .flex_content .text_content .content {
     font-size: 20px;
+    margin-top: 0px;
 }
 
 .section_content .flex_content .text_content ul li {

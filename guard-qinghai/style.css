@@ -4,10 +4,6 @@
     background-size: cover;
 }
 
-.section_content .image_content .subtitle {
-    text-align: left;
-}
-
 .section_content ._bold {
     font-family: 'NotoSans-Bold';
     line-height: 2.5rem;
@@ -22,10 +18,6 @@
 
 .section_content .images_container .image_content {
     flex: 0 0 48%;
-}
-
-.section_content .images_container .image_content .subtitle {
-    text-align: center;
 }
 
 @media screen and (max-width: 768px) {

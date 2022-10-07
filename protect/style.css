@@ -4,10 +4,6 @@
     background-size: cover;
 }
 
-.section_content .image_content .subtitle {
-    text-align: left;
-}
-
 .section_content .images_container {
     display: flex;
     align-items: flex-start;
@@ -21,10 +17,6 @@
 
 .section_content .images_container .image_content.image_content_left {
     flex: 0 0 58%;
-}
-
-.section_content .images_container .image_content .subtitle {
-    text-align: center;
 }
 
 .section_content.last_section {

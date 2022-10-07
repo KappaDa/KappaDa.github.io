@@ -53,7 +53,6 @@ section {
 .section_content .image_content .subtitle,
 .section_content .flex_image_content .subtitle {
     margin-top: 0.5rem;
-    text-align: right;
     line-height: 1.5rem;
     letter-spacing: 1.5px;
 }
@@ -91,8 +90,7 @@ section {
 
 .section_content .video_content .subtitle {
     position: absolute;
-    top: 103%;
-    right: 0px;
+    top: 102%;
 }
 
 .swiper_content {
@@ -127,19 +125,13 @@ a {
 }
 
 .page_title {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    padding: 6rem;
-    letter-spacing: 7px;
+    text-align: center;
 }
 
 .page_title .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0px;
+    width: max-content;
+    margin: 1rem auto;
+    text-align: left;
 }
 
 @media screen and (max-width: 768px) {
@@ -201,6 +193,11 @@ a {
     }
 
     .page_title {
-        font-size: 20px;
+        padding: 0px 1.5rem;
+        text-align: left;
+    }
+
+    .page_title .title {
+        font-size: 1.5rem;
     }
 }
