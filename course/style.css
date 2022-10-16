@@ -93,4 +93,9 @@
     .section_content .images_container .image_content.image_content_left {
         margin-bottom: 1.5rem;
     }
+
+    .section_content .flex_content .text_content li {
+        font-size: 16px;
+        line-height: 2rem;
+    }
 }
