@@ -40,4 +40,8 @@
     .section_content .images_container .image_content {
         flex: 0 0 100%;
     }
+
+    .section_content .images_container .image_content.image_content_left {
+        margin-bottom: 1.5rem;
+    }
 }

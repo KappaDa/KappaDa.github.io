@@ -10,6 +10,11 @@
     padding-bottom: 3rem;
 }
 
+.section_content ._bold {
+    font-family: 'NotoSans-Bold';
+    line-height: 2.5rem;
+}
+
 @media screen and (max-width: 768px) {
     .section_content {
         padding-top: 1.5rem;
